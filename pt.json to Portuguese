@@ -38,15 +38,15 @@
                 },
                 {
                   "englishLabel": "Poster image",
-                  "label": "Cartel",
+                  "label": "Imagem de capa",
                   "englishDescription": "Image displayed before the user launches the video. Does not work for YouTube Videos.",
-                  "description": "Image displayed before the user launches the video. Does not work for YouTube Videos."
+                  "description": "Imagem mostrada antes do usuário iniciar o vídeo. Não funciona para vídeos do YouTube."
                 },
                 {
                   "englishLabel": "Video copyright information",
-                  "label": "Derechos de autor del video",
+                  "label": "Direitos autorais do vídeo",
                   "englishDescription": "Information regarding copyright of the video and elements used in the video.",
-                  "description": "Información relacionada con los derechos de autor del video y de los elementos usados en el video."
+                  "description": "Informações relacionadas aos direitos autorais do vídeo e dos elementos utilizados no vídeo."
                 }
               ]
             }
@@ -54,32 +54,32 @@
         },
         {
           "englishLabel": "Add interactions",
-          "label": "Agregar una interacción",
+          "label": "Adicionar uma interação",
           "fields": [
             {
               "field": {
                 "fields": [
                   {
                     "englishLabel": "Display time",
-                    "label": "Mostar duración"
+                    "label": "Mostar duração"
                   },
                   {
                     "englishLabel": "Pause video",
-                    "label": "Pause"
+                    "label": "Pausar"
                   },
                   {
                     "englishLabel": "Display as",
-                    "label": "Mostras como",
+                    "label": "Mostrar como",
                     "englishDescription": "<b>Button</b> is a collapsed interaction the user must press to open. <b>Poster</b> is an expanded interaction displayed directly on top of the video",
-                    "description": "<b>Botón</b> es una interacción colapsada que el usuario debe preseionar para abrir. <b>Cartel</b> es una interacción expandida mostrada directamente por delante del video.",
+                    "description": "<b>Botão</b> é uma interação colapsada que o usuário deve pressionar para abrir. <b>Poster</b> é uma interação expandida mostrada acima do video.",
                     "options": [
                       {
                         "englishLabel": "Button",
-                        "label": "Botón"
+                        "label": "Botão"
                       },
                       {
                         "englishLabel": "Poster",
-                        "label": "Cartel"
+                        "label": "Poster"
                       }
                     ]
                   },
@@ -87,7 +87,7 @@
                     "englishLabel": "Label",
                     "label": "Etiqueta",
                     "englishDescription": "Label displayed next to interaction icon.",
-                    "description": "Etiqueta descriptiva adjunta al ícono de interacción."
+                    "description": "Etiqueta mostrada próxima ao ícone de interação."
                   },
                   {},
                   {},
@@ -96,67 +96,67 @@
                   {},
                   {
                     "englishLabel": "Adaptivity",
-                    "label": "Adaptabilidad",
+                    "label": "Adaptabilidade",
                     "fields": [
                       {
                         "englishLabel": "Action on all correct",
-                        "label": "Acción cuando todo es correcto",
+                        "label": "Ação quando tudo estiver correto",
                         "fields": [
                           {
                             "englishLabel": "Seek to",
-                            "label": "Ir a",
+                            "label": "Ir para",
                             "englishDescription": "Enter timecode in the format M:SS",
-                            "description": "Introduzca el código de tiempo en formato M:SS"
+                            "description": "Introduza o código de tempo no formato M:SS"
                           },
                           {
                             "englishLabel": "Allow the user to opt out and continue",
-                            "label": "Permitir al usuario optar por no responder y proseguir"
+                            "label": "Permitir ao usuário optar por não responder e prosseguir"
                           },
                           {
                             "englishLabel": "Message",
-                            "label": "Mensaje"
+                            "label": "Mensagem"
                           },
                           {
                             "englishLabel": "Label for seek button",
-                            "label": "Etiqueta para el botón de búsqueda"
+                            "label": "Etiqueta para o botão de procurar"
                           }
                         ]
                       },
                       {
                         "englishLabel": "Action on wrong",
-                        "label": "Acción en caso de respuesta incorrecta",
+                        "label": "Ação em caso de resposta incorreta",
                         "fields": [
                           {
                             "englishLabel": "Seek to",
-                            "label": "Ir a",
+                            "label": "Ir para",
                             "englishDescription": "Enter timecode in the format M:SS",
-                            "description": "Introduzca el código de tiempo en formato M:SS"
+                            "description": "Introduza o código de tempo no formato M:SS"
                           },
                           {
                             "englishLabel": "Allow the user to opt out and continue",
-                            "label": "Permitir al usuario optar por no responder y proseguir"
+                            "label": "Permitir ao usuário optar por não responder e prosseguir"
                           },
                           {
                             "englishLabel": "Message",
-                            "label": "Mensaje"
+                            "label": "Mensagem"
                           },
                           {
                             "englishLabel": "Label for seek button",
-                            "label": "Etiqueta para el botón de búsqueda"
+                            "label": "Etiqueta para o botão de procurar"
                           }
                         ]
                       },
                       {
                         "englishLabel": "Require full score for task before proceeding",
-                        "label": "Require full score for task before proceeding",
+                        "label": "Requerer pontuação máxima para atividade antes de prosseguir",
                         "englishDescription": "For best functionality this option should be used in conjunction with the \"Prevent skipping forward in a video\" option of Interactive Video.",
-                        "description": "For best functionality this option should be used in conjunction with the \"Prevent skipping forward in a video\" option of Interactive Video."
+                        "description": "Para melhor funcionalidade, esta opção deve ser utilizada juntamente com a opção \"Proibido avançar\" do Vídeo Interativo."
                       }
                     ]
                   },
                   {
                     "englishLabel": "Visuals",
-                    "label": "Visuals",
+                    "label": "Visuais",
                     "fields": [
                       {
                         "englishLabel": "Background color",
@@ -166,19 +166,19 @@
                       },
                       {
                         "englishLabel": "Box shadow",
-                        "label": "Box shadow",
+                        "label": "Sombra da Caixa",
                         "englishDescription": "Adds a subtle shadow around the interaction. You might want to disable this for completely transparent interactions",
-                        "description": "Adds a subtle shadow around the interaction. You might want to disable this for completely transparent interactions"
+                        "description": "Adiciona uma sombra sutil ao redor da interação. Você deve desativar isto se quiser interações completamente transparentes."
                       }
                     ]
                   },
                   {
                     "englishLabel": "Go to on click",
-                    "label": "Go to on click",
+                    "label": "Ir para ao clicar",
                     "fields": [
                       {
                         "englishLabel": "Type",
-                        "label": "Type",
+                        "label": "Tipo",
                         "options": [
                           {
                             "englishLabel": "Timecode",
@@ -186,13 +186,13 @@
                           },
                           {
                             "englishLabel": "Another page (URL)",
-                            "label": "Another page (URL)"
+                            "label": "Outra página (URL)"
                           }
                         ]
                       },
                       {
                         "englishLabel": "Go To",
-                        "label": "Go To",
+                        "label": "Ir Para",
                         "englishDescription": "The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS.",
                         "description": "The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS."
                       },
