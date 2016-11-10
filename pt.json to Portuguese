@@ -34,7 +34,7 @@
                   "englishLabel": "Short description (Optional)",
                   "label": "Descrição curta (Opcional)",
                   "englishDescription": "Optional. Display a short description text on the video start screen. Does not work for YouTube videos.",
-                  "description": "Opcional. Mostrar curto texto descritivo no início do vídeo."
+                  "description": "Opcional. Mostrar texto curto descritivo no início do vídeo."
                 },
                 {
                   "englishLabel": "Poster image",
